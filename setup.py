@@ -9,7 +9,7 @@ setuptools.setup(
     description="A simplelayout package",
     long_description_content_type="text/markdown",
     url="https://github.com/idrl-assignment/3-simplelayout-package-meitounao110",
-    packages=setuptools.setup.find_packages('src'),
+    packages=setuptools.find_packages('src'),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
