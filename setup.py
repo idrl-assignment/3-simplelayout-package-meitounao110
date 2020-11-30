@@ -8,7 +8,7 @@ setuptools.setup(
     description="A simplelayout package",
     long_description_content_type="text/markdown",
     url="https://github.com/idrl-assignment/3-simplelayout-package-meitounao110",
-    packages=['src/simplelayout'],
+    packages=['src'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -18,7 +18,7 @@ setuptools.setup(
     install_requires=['matplotlib', 'numpy', 'scipy', 'pytest'],
     entry_points={
         'console_scripts': [  # 配置生成命令行工具及入口
-            'simplelayout = src.simplelayout.__main__:main'
+            'simplelayout = simplelayout.__main__:main'
         ]
     },
 )
