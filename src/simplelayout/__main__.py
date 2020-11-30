@@ -1,7 +1,7 @@
 # TODO 正确导入函数 generate_matrix, save_matrix, save_fig
 from simplelayout.cli import get_options  # TODO: 保证不修改本行也可以正确导入
-from src.simplelayout.generator import utils
-from src.simplelayout.generator import core
+from simplelayout.generator import utils
+from simplelayout.generator import core
 
 
 def main():
