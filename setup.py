@@ -1,6 +1,5 @@
 import setuptools
 
-
 setuptools.setup(
     name="simplelayout-meitounao110",  # Replace with your own username
     version="0.0.1",
