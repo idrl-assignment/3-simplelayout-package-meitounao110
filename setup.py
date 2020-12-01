@@ -7,7 +7,7 @@ setuptools.setup(
     author_email="none",
     description="A simplelayout package",
     url="https://github.com/idrl-assignment/3-simplelayout-package-meitounao110",
-    # package_dir={'': 'src'},
+    package_dir={'': 'src'},
     packages=setuptools.find_packages(where='src'),
     install_requires=['matplotlib', 'numpy', 'scipy', 'pytest'],
     entry_points={
