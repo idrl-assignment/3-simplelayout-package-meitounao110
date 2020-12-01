@@ -4,7 +4,7 @@ setuptools.setup(
     name="simplelayout-meitounao110",  # Replace with your own username
     version="0.0.1",
     author="meitounao110",
-    author_email="none",
+    author_email="431041317@qq.com",
     description="A simplelayout package",
     url="https://github.com/idrl-assignment/3-simplelayout-package-meitounao110",
     package_dir={'': 'src'},
